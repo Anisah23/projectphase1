@@ -142,6 +142,20 @@
 
 
   <script src="./index.js"></script>
+  <script>
+  const heroImg = document.querySelector(".book-right img");
+
+
+  heroImg.onload = () => {
+    heroImg.style.opacity = "1";
+    heroImg.style.animation = "fadeInImage 2s ease forwards";
+  };
+
+  if (heroImg.complete) {
+    heroImg.onload();
+  }
+</script>
+
   
 </body>
 </html>

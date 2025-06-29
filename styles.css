@@ -177,12 +177,10 @@ body {
 }
 
 .book-right img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  object-fit: contain;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  opacity: 0;
+  transform: translateX(40px);
 }
+
 
 @keyframes fadeInLeft {
   0% { opacity: 0; transform: translateX(-40px); }
