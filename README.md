@@ -1,5 +1,5 @@
 ## projectphase1
-## Mini Recipe Book
+## My Mini Recipe Book
 
 A beautifully styled, interactive single-page web application that allows users to browse, search, add, edit, and delete recipes. Built with HTML, CSS, and JavaScript, and powered by a local JSON server and TheMealDB public API for dynamic food category visuals.
 
@@ -20,8 +20,11 @@ A beautifully styled, interactive single-page web application that allows users 
 - Bootstrap 
 - TheMealDB API (for meal categories and random recipe images)
 
+## Purpose
 
-##  Getting Started
+My Mini Recipe Book was created as a front-end project to demonstrate practical skills in DOM manipulation, RESTful operations, modular JavaScript design, and dynamic UI presentation. It also showcases integration with third-party APIs and maintaining clean, DRY code throughout the development process.
+
+##  Running the project
 
 To run the project locally:
 
@@ -33,8 +36,10 @@ To run the project locally:
 4. Open index.html in your browser and run the live server
 
 ## Author
+
 Anisah Hussein
 github username:Anisah23
 
 ## LICENSE
+
 MIT LICENSE
