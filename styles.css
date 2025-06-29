@@ -194,3 +194,50 @@ body {
 }
 
 
+#landingpage {
+  height: 95vh;
+  background-image: url("images/6ec24112-58d7-4777-80b2-5cf11252ff25.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#book-layout {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.book-left,
+.book-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text-container {
+  text-align: center;
+  max-width: 80%;
+  font-family: 'Dancing Script', cursive;
+  color: #3a2e1a;
+  transform: translate(60px, 40px);
+  animation: fadeInText 1.5s ease;
+}
+
+.text-container h1 {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+.text-container p {
+  font-size: 1.1rem;
+}
+
+
