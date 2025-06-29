@@ -67,3 +67,38 @@ body {
   margin-top: 5px;
 }
 
+#recipe-list {
+  max-height: 650px;       
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 6px;
+  margin-top: 2rem;
+}
+
+#recipe-list::-webkit-scrollbar {
+  width: 6px;
+}
+#recipe-list::-webkit-scrollbar-thumb {
+  background-color: #c6a87d;
+  border-radius: 10px;
+}
+
+
+
+.recipe-note {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-bottom: 1px dashed #a37b50;
+  color: #3a2e1a;
+}
+
+.recipe-note button {
+  font-size: 0.9rem;
+  margin-right: 8px;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
