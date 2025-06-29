@@ -241,3 +241,20 @@ body {
 }
 
 
+.book-right {
+  align-items: center; 
+  justify-content: center;
+}
+
+.book-right img {
+  width: 69%;
+  height: 59vh;            
+  object-fit: cover;        
+  border-radius: 0;         
+  box-shadow: none;         
+  transform: translate(-99px, 106px); 
+  animation: fadeInImage 1.2s ease-out;
+}
+
+
+
