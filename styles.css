@@ -26,3 +26,44 @@ body {
 
 
 
+#recipepage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f3ede0;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  min-height: 100vh;
+}
+
+.scroll-container {
+ 
+  width: 600px;
+  min-height: 800px;
+  padding: 3rem 2rem;
+  border: 3px solid #c6a87d;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Dancing Script', cursive;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#recipe-form input,
+#recipe-form textarea {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #a88a64;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#recipe-form button {
+  font-family: 'Dancing Script', cursive;
+  padding: 0.4rem 1.2rem;
+  background-color: #a37b50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
