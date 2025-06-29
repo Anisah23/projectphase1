@@ -86,7 +86,31 @@
 </section>
 
 
-  
+  <section id="recipepage">
+  <div class="scroll-container">
+    <div class="collapse" id="addRecipeForm">
+      <form id="recipe-form">
+        <div class="mb-2">
+          <input type="text" id="name" class="form-control" placeholder="Recipe name" required />
+        </div>
+        <div class="mb-2">
+          <input type="text" id="ingredients" class="form-control" placeholder="Ingredients" required />
+        </div>
+        <div class="mb-2">
+          <textarea id="instructions" class="form-control" placeholder="Instructions" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+      </form>
+    </div>
+
+   
+    <div id="recipe-list"></div>
+  </div>
+</section>
+
+
+
+
 
   <script src="./index.js"></script>
   
