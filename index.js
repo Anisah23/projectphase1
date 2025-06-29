@@ -167,3 +167,30 @@ document.querySelector("[data-bs-target='#addRecipeForm']").addEventListener("cl
   scrollToRecipePage();
 });
 
+function loadMealCategories() {
+  fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
+    .then((res) => res.json())
+    .then((data) => {
+      const carouselInner = document.getElementById("carousel-inner");
+      carouselInner.innerHTML = "";
+      data.categories.forEach((cat, i) => {
+        const item = document.createElement("div");
+        item.className = `carousel-item ${i === 0 ? "active" : ""}`;
+        item.innerHTML = `
+          <div class="d-flex justify-content-center align-items-center flex-column px-4 py-3">
+            <img src="${cat.strCategoryThumb}" class="d-block" alt="${cat.strCategory}" style="max-height: 200px; object-fit: contain;" />
+            <h4 class="mt-3">${cat.strCategory}</h4>
+            <p class="text-muted" style="max-width: 600px">${cat.strCategoryDescription.slice(0, 200)}...</p>
+          </div>
+        `;
+        carouselInner.appendChild(item);
+      });
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchRecipes();
+  loadMealCategories();
+  startImageSlideshow();
+});
+
