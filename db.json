@@ -1,0 +1,160 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Grandma’s Apple Pie",
+      "ingredients": "Apples, Flour, Butter, Sugar, Cinnamon",
+      "instructions": "Peel and slice apples. Mix with sugar and cinnamon. Roll dough, add filling, bake at 180°C for 45 minutes."
+    },
+    {
+      "id": "2",
+      "name": "Classic Spaghetti Bolognese",
+      "ingredients": "Spaghetti, Minced Beef, Tomato Sauce, Onion, Garlic",
+      "instructions": "Boil spaghetti. Fry beef with onion and garlic. Add tomato sauce. Simmer 20 mins. Serve over spaghetti."
+    },
+    {
+      "id": "3",
+      "name": "Fluffy Pancakes",
+      "ingredients": "Flour, Eggs, Milk, Sugar, Baking Powder",
+      "instructions": "Mix ingredients. Pour batter on hot pan. Flip when bubbles form. Serve with syrup."
+    },
+    {
+      "id": "4",
+      "name": "Avocado Toast",
+      "ingredients": "Bread, Avocado, Lemon Juice, Salt, Pepper",
+      "instructions": "Toast bread. Mash avocado with lemon juice, salt, and pepper. Spread and enjoy."
+    },
+    {
+      "id": "5",
+      "name": "Mango Smoothie",
+      "ingredients": "Mango, Yogurt, Honey, Ice",
+      "instructions": "Blend all ingredients until smooth. Serve cold."
+    },
+    {
+      "id": "6",
+      "name": "Grilled Cheese Sandwich",
+      "ingredients": "Bread, Butter, Cheese",
+      "instructions": "Butter bread, add cheese, and grill until golden brown."
+    },
+    {
+      "id": "7",
+      "name": "Chicken Caesar Salad",
+      "ingredients": "Chicken, Romaine Lettuce, Croutons, Caesar Dressing, Parmesan",
+      "instructions": "Grill chicken. Toss lettuce with dressing, top with chicken, croutons, and parmesan."
+    },
+    {
+      "id": "8",
+      "name": "Tomato Soup",
+      "ingredients": "Tomatoes, Onion, Garlic, Basil, Cream",
+      "instructions": "Sauté onion and garlic, add tomatoes, simmer, blend and add cream."
+    },
+    {
+      "id": "9",
+      "name": "Beef Stir Fry",
+      "ingredients": "Beef Strips, Soy Sauce, Vegetables, Garlic, Ginger",
+      "instructions": "Sauté beef, add garlic and ginger, toss in vegetables, stir fry with soy sauce."
+    },
+    {
+      "id": "10",
+      "name": "Chocolate Chip Cookies",
+      "ingredients": "Flour, Butter, Sugar, Eggs, Chocolate Chips",
+      "instructions": "Mix ingredients, scoop dough onto tray, bake at 180°C for 12 minutes."
+    },
+    {
+      "id": "11",
+      "name": "French Toast",
+      "ingredients": "Bread, Eggs, Milk, Cinnamon, Vanilla",
+      "instructions": "Mix eggs, milk, cinnamon, and vanilla. Dip bread and fry until golden."
+    },
+    {
+      "id": "12",
+      "name": "Greek Salad",
+      "ingredients": "Tomatoes, Cucumber, Feta Cheese, Olives, Olive Oil",
+      "instructions": "Chop vegetables, add feta and olives, drizzle with olive oil."
+    },
+    {
+      "id": "13",
+      "name": "Lemon Garlic Salmon",
+      "ingredients": "Salmon, Lemon Juice, Garlic, Butter, Parsley",
+      "instructions": "Season salmon, pan-sear with garlic and butter, finish with lemon juice."
+    },
+    {
+      "id": "14",
+      "name": "Veggie Omelette",
+      "ingredients": "Eggs, Bell Pepper, Onion, Spinach, Cheese",
+      "instructions": "Beat eggs, add vegetables, cook in a pan, top with cheese."
+    },
+    {
+      "id": "15",
+      "name": "Tuna Pasta",
+      "ingredients": "Pasta, Canned Tuna, Mayo, Sweetcorn, Onion",
+      "instructions": "Cook pasta, mix with tuna, mayo, sweetcorn, and chopped onion."
+    },
+    {
+      "id": "16",
+      "name": "Chili Con Carne",
+      "ingredients": "Minced Beef, Beans, Chili Powder, Onion, Tomato",
+      "instructions": "Cook beef and onions, add tomatoes, beans, and spices. Simmer for 30 minutes."
+    },
+    {
+      "id": "17",
+      "name": "Garlic Butter Shrimp",
+      "ingredients": "Shrimp, Garlic, Butter, Lemon Juice, Parsley",
+      "instructions": "Cook shrimp in garlic butter, finish with lemon juice and parsley."
+    },
+    {
+      "id": "18",
+      "name": "Quinoa Bowl",
+      "ingredients": "Quinoa, Chickpeas, Avocado, Cucumber, Dressing",
+      "instructions": "Cook quinoa. Combine all ingredients in a bowl and drizzle with dressing."
+    },
+    {
+      "id": "19",
+      "name": "BBQ Chicken Wings",
+      "ingredients": "Chicken Wings, BBQ Sauce, Salt, Pepper",
+      "instructions": "Season wings, bake until crispy, coat in BBQ sauce and bake again."
+    },
+    {
+      "id": "20",
+      "name": "Mashed Potatoes",
+      "ingredients": "Potatoes, Butter, Milk, Salt",
+      "instructions": "Boil potatoes, mash with butter and milk, season to taste."
+    },
+    {
+      "id": "21",
+      "name": "Egg Fried Rice",
+      "ingredients": "Rice, Eggs, Peas, Carrots, Soy Sauce",
+      "instructions": "Scramble eggs, add rice and vegetables, stir fry with soy sauce."
+    },
+    {
+      "id": "22",
+      "name": "Stuffed Bell Peppers",
+      "ingredients": "Bell Peppers, Rice, Ground Beef, Tomato Sauce, Cheese",
+      "instructions": "Stuff peppers with mixture, top with cheese, and bake."
+    },
+    {
+      "id": "23",
+      "name": "Banana Bread",
+      "ingredients": "Bananas, Flour, Eggs, Sugar, Baking Soda",
+      "instructions": "Mix all ingredients and bake at 180°C for 1 hour."
+    },
+    {
+      "id": "24",
+      "name": "Shrimp Tacos",
+      "ingredients": "Shrimp, Tortillas, Cabbage, Lime, Sour Cream",
+      "instructions": "Cook shrimp, assemble with toppings in tortillas."
+    },
+    {
+      "id": "25",
+      "name": "Coconut Rice",
+      "ingredients": "Rice, Coconut Milk, Salt",
+      "instructions": "Cook rice in coconut milk and a pinch of salt until fluffy."
+    },
+    {
+      "id": "26",
+      "name": "Zucchini Noodles",
+      "ingredients": "Zucchini, Olive Oil, Garlic, Parmesan",
+      "instructions": "Spiralize zucchini, sauté with garlic, finish with cheese."
+    }
+  ]
+}
