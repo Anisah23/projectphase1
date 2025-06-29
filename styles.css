@@ -117,3 +117,33 @@ body {
   color: white;
 }
 
+#aboutpage{
+  font-family: 'Dancing Script', cursive;
+  min-height: 80vh;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+#categoryCarouselContainer {
+  font-family: 'Dancing Script', cursive;
+}
+
+.carousel-inner img {
+  border-radius: 10px;
+  border: 2px solid #c6a87d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
