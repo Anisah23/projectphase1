@@ -258,3 +258,21 @@ body {
 
 
 
+#contactpage {
+  background-color: #f8f4ed;
+  padding: 5rem 2rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#contactpage h2 {
+  font-size: 2.5rem;
+  color: #a37b50;
+  margin-bottom: 1rem;
+}
+
