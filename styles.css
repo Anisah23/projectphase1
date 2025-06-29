@@ -176,10 +176,7 @@ body {
   animation: fadeInRight 2s ease;
 }
 
-.book-right img {
-  opacity: 0;
-  transform: translateX(40px);
-}
+
 
 @keyframes fadeInLeft {
   0% { opacity: 0; transform: translateX(-40px); }
