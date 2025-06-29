@@ -194,3 +194,17 @@ document.addEventListener("DOMContentLoaded", () => {
   startImageSlideshow();
 });
 
+function startImageSlideshow() {
+  const foodImg = document.getElementById("food-slideshow");
+  function loadRandomMealImage() {
+    fetch("https://www.themealdb.com/api/json/v1/1/random.php")
+      .then(res => res.json())
+      .then(data => {
+        if (data.meals?.[0]) {
+          foodImg.src = data.meals[0].strMealThumb;
+        }
+      });
+  }
+  loadRandomMealImage();
+  setInterval(loadRandomMealImage, 5000);
+}
